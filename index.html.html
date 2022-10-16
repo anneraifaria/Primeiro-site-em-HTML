@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio"> <font size="3" color="purple"> Módulo 1 - Primeiros Passos com HTML</h1>
+    
+
+    <h2>Índice</h2>
+    <font color = "black">
+    <ol>
+        <li><a href="#clients-servers">O que são <i><strong>Clients e Servers</i></strong>?</a></li>
+        <li><a href="#aplicacoes-web">Considerações sobre <i>Aplicações Web</i></a></li>
+        <li><a href="#servidores">Breve resumo sobre <i>Servidores e Hospedagens de Sites</i></a></li>
+        <li><a href="#estrutura">Ferramentas e estruturas <i><strong>básicas</strong></i> do HTML</a></li>
+        <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+    </ol>
+
+    <hr>
+    <h3 id="clients-servers"><font color = "purple"></font>O que são <i><strong>Clients e Servers</i></strong>?</h3>
+    
+    <font color = "black"><p><strong><u><mark>Clients</mark></u>: </strong> Dispositivos que <u>consomem</u> a informação da internet (computadores/notebooks/smartphones etc)<i>"lado que consome"</i>.
+    <p><strong><u><mark>Servers</mark></u>:</strong> Transferem informações para os clients.</p>
+    <p>Servidores são divididos em <strong>duas</strong> partes: </p>
+<ul><li>Softwares (parte lógica): SO, Monitoramento, Servidores Web</li>
+<li>Hardware: Armazenamento, memória, processadores.</li></p>
+<p><i>Tipos de Servidores:</i>
+<li>Arquivos</li>
+<li>Segurança (Firewall)</li>  
+<li>Streaming</li> 
+<li>E-mail</li>
+<li>Web</li></ul>
+   <h4>Algumas definições:</h4>
+    <ul><li><u><mark>Servidor Proxy</mark></u>:  bloqueio de alguns sites, normalmente por redes empresariais. Pode ser servidor de validação. Problemas: proxy pode bloquear um retorno html por exemplo.</li>
+    <li><u><mark>Firewall<mark></u>: Barreira de segurança para acessos externos, arquivos externos.</li></ul>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <hr>
+    <h3 id="aplicacoes-web"><font color = "purple">Considerações sobre <i>Aplicações Web</i></h3>
+
+        <font color = "black"><p>Lembrar sempre que Aplicações Web <strong><mark>NÃO</mark></strong> são <del>Bancos de dados!</del></p>
+    <p>Aplicações Web possuem a internet como meio de comunicação. 
+    Não é necessário a instalação no computador.
+    Sem um app está instalado ele deixa de ser uma aplicação Web. </p>
+    <blackquote>Facebook. É aplicação web no navegador, deixa de ser quando o app é instalado. A info é a mesma, mas a forma que foi programado é diferente.</blackquote>
+  
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <hr>
+  <h3 id="#servidores"><font color = "purple">Breve resumo sobre <i>Servidores e Hospedagens de Sites</i></h3>
+   
+    <font color = "black"><p>Servidor Web <i>sem internet</i> é conhecido como <i><mark>intranet</mark></i>(servidor acessível em rede local)</p>
+    <p><i>O que é DNS (Domain Name Service)?</i> Redireciona nome a ip.</p>
+
+    <h4><strong><i><font color = "purple">Hospedagem de Sites</i></strong></h4>
+
+    <p><font color = "black">O que é uma hospedagem de sites?</p>
+    <p><i><mark>Colocar os arquivos do site em um servidor.</i></mark>E como fazer isso?
+       <ul><li>Realizar o cadastro do domínio no registro.br (ou outro): Verificar se está disponível, lembrando que há um custo.</li>
+        <li>Se há uma ideia de marca, site, é recomendado registrar para garantir o domínio, sem o site pronto. </li>
+        <li><del>O DNS pode ser configurado depois. </del></li>
+        <li>Registro Br é exclusivo para sites.br.</li>
+        <li>Configura o acesso para o servidor DNS correspondente.</li>
+        <li>Deve-se observar se o servidor é multiplataforma, se hospeda com certificado SSL (conexão segura)</li></ul>
+
+    <p>Muitas vezes o próprio servidor pode fornecer o serviço de emails.</p>
+    <p>Para enviar o conteúdo para o servidor, é utilizada a <i>Conexão FTP (File Transfer Protocol)</i>>, que é uma conexão direta com o servidor. Ex: Filezilla
+    O provedor fornece usuário e senha.</p>
+
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <hr>
+    <h3 id="estrutura"><font color = "purple">Ferramentas e estruturas <i><strong>básicas</strong></i> do HTML </h3>
+
+    <font color = "black"> <p>A estrutura primordial do HTML é composta por 3 partes:</p>
+    <ul><li><i>Head</i>: informações gerais sobre o documento, incluindo título.</li>
+    <li><i>Title</i>: O título que fica na aba do navegador.</li>
+    <li><i>Body</i>:Tudo que o usuário vai visualizar na página. </li></ul>
+
+    <blackquote><p><i><strong>Polêmica: </i><mark>HTML NÃO É LINGUAGEM DE PROGRAMAÇÃO!</mark></strong>
+        É um arquivo de marcação!!! É um arquivo texto, delimitado, onde cada delimitação envia uma mensagem que o navegador consegue interpetar.</p>
+    </blackquote>
+        <small><a href="#inicio">(Voltar)</a></small>
+
+<hr>
+<h3 id="listas"><strong><font color = "purple">Listas Ordenadas e Não Ordenadas</strong></h3>
+
+<h4><font color = "black">O que são?</h4>
+
+<p><i>São elementos usados para identificar uma lista.</i></p>
+
+<p>O elemento <i>OL</i> representa uma lista de itens <mark>ordenados</mark>. Geralmente os itens desse tipo de lista são mostrados com alguma contagem, que pode ser de qualquer tipo.</p>
+<p>Já o elemento <i>UL</i> representa uma lista de itens <mark>sem ordem definida.</mark></p>
+
+<small><a href="#inicio">(Voltar)</a></small>
+
+
+<hr>
+    <h4 id="referencias"><font color = "purple">Links de referências:</h4>
+    
+        <li><a href="https://dio.me" target="_blank">http://dio.me</a></li>
+        <li><a href="http://w3c.org" target="_blank">http://w3c.org</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">https://developer.mozilla.org/pt-BR/docs/Web/HTML</a></li>
+        <li><a href='https://tutorialehtml.com/pt/html-tutorial-usindo-fonte-e-basefont/' target="_blank">https://tutorialehtml.com/pt/html-tutorial-usindo-fonte-e-basefont/</a></li>
+
+    </ul>
+</font>
+</body>
+</html>
